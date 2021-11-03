@@ -1,0 +1,11 @@
+target
+target/classes/*
+web-app/WEB-INF/*
+*.classes
+.DS_Store
+target-eclipse/*
+.idea/*
+*.iml
+*.log
+out/*
+logs/*

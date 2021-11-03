@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: training-maintenance
+
+  datasource:
+    url: jdbc:mysql://localhost/training-maintenance?useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
