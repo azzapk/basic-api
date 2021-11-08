@@ -3,7 +3,7 @@ spring:
     name: training-maintenance
 
   datasource:
-    url: jdbc:mysql://localhost/training-maintenance?useSSL=false
+    url: jdbc:mysql://localhost/db_training?useSSL=false
     driver-class-name: com.mysql.jdbc.Driver
     username: root
 
